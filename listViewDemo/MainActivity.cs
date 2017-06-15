@@ -18,9 +18,9 @@ namespace listViewDemo
 			SetContentView(Resource.Layout.Main);
 
 			var data = new List<string>();
-			for (var i = 0; i < 100; i++)
+			for (var i = 10; i < 100; i++)
 			{
-				data.Add("Item number: " + i.ToString());
+				data.Add(i.ToString() + " Item Thingy");
 			}
 
 			var listView = FindViewById<ListView>(Resource.Id.listView1);
