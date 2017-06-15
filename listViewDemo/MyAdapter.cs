@@ -117,4 +117,7 @@ namespace listViewDemo
 			return sectionObjects;
 		}
 	}
+
+
+	// Sections in a ListView as is known in iOS see https://stackoverflow.com/questions/18302494/how-to-add-section-separators-dividers-to-a-listview
 }
